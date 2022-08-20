@@ -16,6 +16,15 @@ import time
 
 ## 簡介
 
+### sqlite設定&計時器設定
+
+```
+conn = sqlite3.connect('kinji.db')
+sqlite = conn.cursor()
+
+start = time.time()
+```
+
 ### 取得所有要爬的網址
 
 ```
