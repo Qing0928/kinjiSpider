@@ -72,3 +72,7 @@ async def SuperGiraffe(url, sem):
                 print(f'book:{bookName}, chapter:{chapter} done')
                 conn.commit()
 ```
+
+### 結論
+
+又在備份別人的網站
